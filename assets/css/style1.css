@@ -2,9 +2,13 @@
 #navigationBar{
     font-family: 'Times New Roman', Times, serif;
     background-color:#4aaaa5;
-    color: white;
     font-weight: bold;
-    /* line-height: 0px; */
+    font-size: 18px;
+}
+
+.brandName{
+  color:white !important; 
+  font-size: 30px !important;
 }
 
 #navbarLinks{
@@ -15,6 +19,18 @@
     text-decoration: none;
 }
 
+.liStyle{
+   color:white !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white !important;
+}
+
+/* style="color:white;"
+style="color:white;"
+style="color:white;" */
+
 #profilePic{
     height: 150px;
     width: 150px;
@@ -23,10 +39,11 @@
     padding-right: 15px;
 }
 
-#indexPanelHeading{
+.panelHeading{
     font-family: 'Times New Roman', Times, serif;
-    color:#4aaaa5;
+    color:#4aaaa5 !important;
     font-weight: bolder;
+    font-size: 20px;
 
 }
 /* Browser not interprating this */
@@ -69,8 +86,9 @@ footer{
 .caption {
     color: white;
     position: absolute;
-    top: 80%;
-    width: 89%;
+    right:20px;
+    left:20px;
+    bottom:30px;
     background-color: green;
     align-items: center;
 }
