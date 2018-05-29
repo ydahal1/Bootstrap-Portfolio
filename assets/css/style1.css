@@ -1,0 +1,76 @@
+/* Index page styling */
+#navigationBar{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#4aaaa5;
+    color: white;
+    font-weight: bold;
+    /* line-height: 0px; */
+}
+
+#navbarLinks{
+    padding-top:12px;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+#profilePic{
+    height: 150px;
+    width: 150px;
+    float: left ;
+    padding: 5px;
+    padding-right: 15px;
+}
+
+#indexPanelHeading{
+    font-family: 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    font-weight: bolder;
+
+}
+/* Browser not interprating this */
+body {background-color: blue;}
+
+footer{
+    right: 0;
+    width: 100%;
+    height: 57px;
+    border: 2px solid #cccccc;
+    background-color: #666666;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    padding:15px;
+}
+
+/* Contact Page Styling */
+#contactPanelHeading{
+    font-family: 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    font-weight: bolder;
+}
+
+/* Portfolio page styling  */
+#portfolioPanelHeading{
+    font-family: 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    font-weight: bolder;
+}
+
+
+.thumbnail {
+    position: relative;
+    /* height: 170px;
+    width: 170px; */
+    
+}
+
+.caption {
+    color: white;
+    position: absolute;
+    top: 80%;
+    width: 89%;
+    background-color: green;
+    align-items: center;
+}
