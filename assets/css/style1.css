@@ -91,3 +91,17 @@ footer{
     background-color: green;
     align-items: center;
 }
+
+
+#projects{
+    margin: 40px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black !important;
+    margin: 1em 0;
+    padding: 0; 
+}
