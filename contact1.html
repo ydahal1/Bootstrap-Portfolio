@@ -33,28 +33,42 @@
                 </nav>
         
         <div class="container" >
-            <div class="panel panel-default">
-                <div class="panel panel-heading panelHeading">
+            <div class="panel panel-default contactPanel">
+                <div class="panel panel-heading panelHeading customPanelHead">
                     <div>Contact</div>
                 </div>
-                <div class="panel panel-body">
-                    <form >
-                        <div class="form-group">
-                            <label>Name:</label>
-                            <input type="email" class="form-control"  placeholder="Enter Name"  >
+                <div class="panel panel-body customPanelBody" id="contact-panel-body">
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-sm-12" id="contact-form">
+                        <div class="panel panel-body">
+                            <form >
+                                <div class="form-group">
+                                    <label>Name:</label>
+                                    <input type="email" class="form-control"  placeholder="Enter Name"  >
+                                </div>
+                                <div class="form-group">
+                                    <label>Email:</label>
+                                    <input type="password" class="form-control" placeholder="Enter Email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </form>
                         </div>
-                        <div class="form-group">
-                            <label>Email:</label>
-                            <input type="password" class="form-control" placeholder="Enter Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Message</label>
-                            <textarea class="form-control" placeholder="Message" rows="7"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-info">Submit</button>
+                    </div>
 
-
-                    </form>
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-sm-12" id="other-contact">
+                            <div class="panel panel-body">
+                                <h4>Direct contact</h4>
+                                <p>Phone : (470) 331- 8692</p>
+                                <p>Email : yadhapdahal111@gmail.com</p>
+                                <hr>
+                                <h4>Links</h4>
+                                <p>Github : github.com/ydahal1</p>
+                                <p>LinkedIn: linkedin.com/in/yadhapdahal</p> 
+                            </div>
+                    </div>
                 </div>    
             </div>
         </div>

@@ -105,3 +105,49 @@ hr {
     margin: 1em 0;
     padding: 0; 
 }
+
+#other-contact{
+    text-align: center;
+    padding-top: 50px;
+    border-left: 1px solid black;
+
+}
+
+#contact-form{
+    margin-bottom: -30px !important;
+}
+
+#contact-panel-body{
+    border: 1px solid gray !important;
+}
+
+.panel{
+    border : none !important;
+}
+.customPanelHead{
+    border: 1px solid black !important;
+}
+
+.customPanelBody{
+    margin-bottom: 50px;
+    border: 1px solid black !important;
+
+}
+input, textarea{
+    border : 1px solid black !important;
+}
+
+/* resume-head */
+.resume-head{
+    text-align: center;
+    line-height: 10px;
+}
+
+.resume-body{
+    text-align: left;
+    line-height: 12px;
+}
+
+#skills-div{
+    margin-bottom: 200px;
+}
